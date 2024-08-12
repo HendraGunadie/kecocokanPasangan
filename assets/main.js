@@ -13,7 +13,7 @@
                 if (randomStatus == 0) {
                     let kecocokan = [
                         'Cinta Sejati',
-                        'CInta Pertama',
+                        'Cinta Pertama',
                         'Cinta Terakhir',
                         'Kurang Cocok',
                         'Sangat Cocok',
@@ -22,7 +22,11 @@
                         'Menikah',
                         'Gak Cocok',
                         'Lumayan Cocok',
-                        'Sering Berantem'
+                        'Sering Berantem',
+                        'Gak Banget',
+                        'Cocok Temanan',
+                        'Sahabat Lebih Cocok',
+                        'Kakak Adek Aja'
                     ];
                     const random = Math.floor(Math.random() * kecocokan.length);
                     container.style.display = "block";
